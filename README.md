@@ -86,42 +86,27 @@ int main() {
 
 ## Algorithm:
 
-### Function overloading:-
+### Function Overloading:
 
-1)Start
+1. **Start**
 
-2)Initialize the Program
+2. **Initialize the Program**
+   - Begin the program by including necessary libraries (e.g., `#include <iostream>` in C++).
 
-Begin the program by including necessary libraries (e.g., #include <iostream> in C++).
+3. **Define Functions**
+   - Function 1: Define a function `add(int a, int b)` that returns the sum of two integers.
+   - Function 2: Define a function `add(double a, double b)` that returns the sum of two double values.
+   - Function 3: Define a function `add(int a, int b, int c)` that returns the sum of three integers.
 
-3)Define Functions
+4. **Main Function**
+   - Start the `main()` function.
+   - Call Function 1: Invoke `add(2, 3)` and print the result.
+   - Call Function 2: Invoke `add(2.5, 3.5)` and print the result.
+   - Call Function 3: Invoke `add(1, 2, 3)` and print the result.
 
-Function 1: Define a function add(int a, int b) that returns the sum of two integers.
-
-Function 2: Define a function add(double a, double b) that returns the sum of two double values.
-
-Function 3: Define a function add(int a, int b, int c) that returns the sum of three integers.
-
-4)Main Function
-
-Start the main() function.
-Call Function 1:
-Invoke add(2, 3) and store the result.
-Print the result of the addition of two integers.
-
-Call Function 2:
-Invoke add(2.5, 3.5) and store the result.
-Print the result of the addition of two doubles.
-
-Call Function 3:
-Invoke add(1, 2, 3) and store the result.
-Print the result of the addition of three integers.
-
-4)End Program
-
-Return 0 to indicate successful execution of the program.
-End the main() function.
-
+5. **End Program**
+   - Return 0 to indicate successful execution of the program.
+   - End the `main()` function.
 
 ### Operator Overloading:
 
